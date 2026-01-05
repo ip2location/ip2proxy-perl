@@ -1,0 +1,59 @@
+Revision history for Perl extension Geo::IP2Proxy
+
+3.40  Tue January 02 16:00:00 2024
+      Support "CPN" in consumer privacy networks detection in PX11+
+      Support "EPN" in enterprise private networks detection in PX11+
+
+3.30  Tue June 21 16:00:00 2022
+      Reduced file I/O to improve query performance
+
+3.20  Mon April 26 16:00:00 2021
+      Added new function "getProvider"
+      Added new function "Geo::IP2Proxy::get_last_error_message()"
+
+3.10  Fri July 17 16:00:00 2020
+      Fixed MIT license in description
+
+3.00  Mon June 11 16:00:00 2020
+      Third major release under the Geo::IP2Proxy
+      Added new function "getThreat"
+      Support "RES" in residential proxy detection in PX10+
+
+2.20  Fri October 18 16:00:00 2019
+      Reduced file I/O to improve query performance
+
+2.11  Tue June 25 16:00:00 2019
+      Minor fix on Math::BigInt->beq()
+
+2.10  Mon June 24 16:00:00 2019
+      Added 6to4 addressing support
+      Added Teredo addressing support
+      Minor fix on isProxy value if IP address is UNKNOWN
+
+2.02  Mon Apr 08 16:00:00 2019
+      Minor fix on POD
+
+2.00  Mon Apr 07 16:00:00 2019
+      Second release under the Geo::IP2Proxy
+      Added new function "getDomain"
+      Added new function "getUsageType"
+      Added new function "getASN"
+      Added new function "getAS"
+      Added new function "getLastSeen"
+      Support "SES" in proxy detection
+
+1.00  Mon Nov 21 16:00:00 2016
+      First release under the Geo::IP2Proxy
+      Added new function "open"
+      Added new function "getModuleVersion"
+      Added new function "getPackageVersion"
+      Added new function "getDatabaseVersion"
+      Added new function "isProxy"
+      Added new function "getCountryShort"
+      Added new function "getCountryLong"
+      Added new function "getRegion"
+      Added new function "getCity"
+      Added new function "getISP"
+      Added new function "getProxyType"
+      Added new function "getAll"
+      Added new function "close"
