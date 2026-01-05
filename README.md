@@ -18,10 +18,12 @@ Free creative-common monthly database with open proxies data only is available a
 
 To install this module type the following:
 
+```
    perl Makefile.PL
    make
    make test
    make install
+```
 
 
 ## DEPENDENCIES
