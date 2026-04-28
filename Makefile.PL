@@ -12,4 +12,18 @@ WriteMakefile(
     INC               => '-I.', # e.g., '-I. -I/usr/include/other'
 	  # Un-comment this if you add C files to link with later:
     # OBJECT            => '$(O_FILES)', # link all the C files too
+    META_MERGE => {
+    'meta-spec' => { version => 2 },
+     resources => {
+         repository => {
+             type => 'git',
+             url  => 'https://github.com/ip2location/ip2proxy-perl.git',
+             web  => 'https://github.com/ip2location/ip2proxy-perl',
+         },
+         bugtracker => {
+             web => 'https://github.com/ip2location/ip2proxy-perl/issues'
+         },
+         homepage   => 'https://www.ip2location.com/',
+     },
+  },
 );
